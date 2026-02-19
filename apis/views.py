@@ -12,3 +12,4 @@ class DetailTodo(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.Todo.objects.all()
     serializer_class = TodoSerializer
 
+
